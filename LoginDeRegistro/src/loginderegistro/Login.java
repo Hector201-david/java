@@ -26,6 +26,7 @@ public class Login extends javax.swing.JFrame {
         jLabel6 = new javax.swing.JLabel();
         user = new javax.swing.JTextField();
         jLabel7 = new javax.swing.JLabel();
+        jLabel8 = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -87,7 +88,7 @@ public class Login extends javax.swing.JFrame {
 
         jLabel6.setText("Version: 0.01 Beta");
         getContentPane().add(jLabel6);
-        jLabel6.setBounds(10, 450, 100, 14);
+        jLabel6.setBounds(10, 450, 120, 16);
 
         user.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -101,6 +102,11 @@ public class Login extends javax.swing.JFrame {
         jLabel7.setText("Usuario:");
         getContentPane().add(jLabel7);
         jLabel7.setBounds(340, 120, 70, 20);
+
+        jLabel8.setBackground(new java.awt.Color(0, 0, 0));
+        jLabel8.setText("ESPERAMOS QUE SEA DE SU AGRADO");
+        getContentPane().add(jLabel8);
+        jLabel8.setBounds(30, 140, 190, 30);
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/loginderegistro/Berries - Tom Kijas.jpg"))); // NOI18N
         getContentPane().add(jLabel1);
@@ -233,6 +239,7 @@ public class Login extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel8;
     private javax.swing.JTextField mail;
     private javax.swing.JPasswordField pass;
     private javax.swing.JTextField user;
